@@ -10,6 +10,8 @@ $(document).ready(function() {
        $('.greeting-login').append(data.login);
        $('.greeting-avatar').append(data.avatar_url);
        $('.greeting-events_url').append(data.events_url);
+       $('.greeting-repos_url').append(data.repos_url);
+       $('.greeting-gists_url').append(data.gists_url);
 
        
 
