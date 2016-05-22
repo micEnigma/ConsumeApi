@@ -16,8 +16,6 @@ $(document).ready(function() {
        $('.github-events_url').append(data.events_url);
        $('.github-repos_url').append(data.repos_url);
        $('.github-gists_url').append(data.gists_url);
-
-       
-
+  
     });
 });
